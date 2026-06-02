@@ -1,0 +1,41 @@
+# Compiled class files
+*.class
+target/
+out/
+build/
+
+# Maven
+*.jar
+*.war
+*.ear
+.mvn/
+!.mvn/wrapper/
+
+# Gradle
+.gradle/
+gradle-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+.eclipse/
+*.project
+*.classpath
+.settings/
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local
