@@ -1,0 +1,16 @@
+isbn,title,author,genre,publisher,year,price_inr,copies_available,rating
+978-0-13-468599-1,Effective Java,Joshua Bloch,Programming,Addison-Wesley,2018,899,5,4.9
+978-0-596-51774-8,Head First Design Patterns,Eric Freeman,Programming,O'Reilly,2020,799,3,4.7
+978-0-13-235088-4,The Pragmatic Programmer,David Thomas,Software Engineering,Addison-Wesley,2019,850,4,4.8
+978-0-13-110362-7,The C Programming Language,Kernighan & Ritchie,Programming,Prentice Hall,1988,650,2,4.9
+978-0-201-63361-0,Design Patterns: GoF,Gang of Four,Software Design,Addison-Wesley,1994,950,3,4.7
+978-0-13-235088-5,Clean Code,Robert C. Martin,Software Engineering,Prentice Hall,2009,750,6,4.6
+978-1-491-91205-8,Learning Java,Marc Loy,Programming,O'Reilly,2020,699,4,4.4
+978-0-321-12521-7,Domain-Driven Design,Eric Evans,Software Architecture,Addison-Wesley,2003,1100,2,4.5
+978-1-617-29200-7,Spring in Action,Craig Walls,Java Framework,Manning,2022,950,3,4.5
+978-0-13-294025-9,Java Concurrency in Practice,Brian Goetz,Java,Addison-Wesley,2006,850,2,4.8
+978-1-491-91204-1,Data Structures & Algorithms,Michael Goodrich,CS Theory,O'Reilly,2014,780,5,4.3
+978-0-321-82521-4,Refactoring,Martin Fowler,Software Engineering,Addison-Wesley,2018,900,3,4.7
+978-1-938-56502-4,Cracking the Coding Interview,Gayle McDowell,Interview Prep,CareerCup,2015,699,8,4.8
+978-0-596-00712-6,Java in a Nutshell,Ben Evans,Java Reference,O'Reilly,2019,750,4,4.2
+978-1-492-03688-1,Kubernetes in Action,Marko Luksa,DevOps,Manning,2021,1200,2,4.6

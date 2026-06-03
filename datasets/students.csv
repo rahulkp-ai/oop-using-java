@@ -1,0 +1,16 @@
+student_id,name,email,major,enrollment_year,cgpa,gender,city
+STU-1001,Arjun Kapoor,arjun.kapoor@university.edu,Computer Science,2021,8.7,Male,Mumbai
+STU-1002,Priya Sharma,priya.sharma@university.edu,Information Technology,2022,9.1,Female,Delhi
+STU-1003,Rahul Menon,rahul.menon@university.edu,Computer Science,2021,7.5,Male,Kochi
+STU-1004,Anita Roy,anita.roy@university.edu,MCA,2023,8.2,Female,Kolkata
+STU-1005,Mohammed Ali,m.ali@university.edu,Software Engineering,2022,6.8,Male,Hyderabad
+STU-1006,Sunita Nair,sunita.nair@university.edu,Computer Science,2021,9.4,Female,Trivandrum
+STU-1007,Vikram Singh,vikram.singh@university.edu,Information Technology,2023,7.1,Male,Jaipur
+STU-1008,Kavitha Reddy,kavitha.reddy@university.edu,MCA,2022,8.9,Female,Chennai
+STU-1009,Deepak Patel,deepak.patel@university.edu,Computer Science,2020,8.0,Male,Ahmedabad
+STU-1010,Neha Gupta,neha.gupta@university.edu,Data Science,2023,9.2,Female,Pune
+STU-1011,Arun Kumar,arun.kumar@university.edu,Software Engineering,2021,7.8,Male,Bangalore
+STU-1012,Sonal Joshi,sonal.joshi@university.edu,Computer Science,2022,8.5,Female,Nagpur
+STU-1013,Ravi Verma,ravi.verma@university.edu,MCA,2020,6.5,Male,Lucknow
+STU-1014,Meena Iyer,meena.iyer@university.edu,Data Science,2023,9.0,Female,Mysore
+STU-1015,Kiran Bhat,kiran.bhat@university.edu,Information Technology,2022,7.3,Male,Mangalore

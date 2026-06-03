@@ -1,0 +1,16 @@
+employee_id,name,email,department,designation,salary,years_experience,city,joining_date
+EMP-2024-001,Anjali Sharma,anjali.sharma@techcorp.com,Engineering,Senior Developer,95000,6,Bangalore,2018-03-15
+EMP-2024-002,Rajesh Menon,rajesh.menon@techcorp.com,Engineering,Tech Lead,120000,9,Hyderabad,2015-07-01
+EMP-2024-003,Priya Nair,priya.nair@techcorp.com,Marketing,Marketing Manager,80000,5,Mumbai,2019-01-20
+EMP-2024-004,Suresh Patel,suresh.patel@techcorp.com,HR,HR Business Partner,65000,4,Ahmedabad,2020-06-10
+EMP-2024-005,Deepa Krishnan,deepa.krishnan@techcorp.com,Engineering,Junior Developer,55000,2,Chennai,2022-08-01
+EMP-2024-006,Mohammed Farouk,m.farouk@techcorp.com,Finance,Financial Analyst,75000,5,Delhi,2019-11-05
+EMP-2024-007,Sunita Gupta,sunita.gupta@techcorp.com,Engineering,DevOps Engineer,90000,7,Pune,2017-04-12
+EMP-2024-008,Arjun Reddy,arjun.reddy@techcorp.com,Sales,Sales Executive,60000,3,Hyderabad,2021-02-28
+EMP-2024-009,Kavitha Iyer,kavitha.iyer@techcorp.com,Engineering,Software Architect,150000,12,Bangalore,2012-09-20
+EMP-2024-010,Ravi Kumar,ravi.kumar@techcorp.com,Engineering,QA Engineer,70000,5,Kochi,2019-03-01
+EMP-2024-011,Neha Singh,neha.singh@techcorp.com,Design,UI/UX Designer,72000,4,Mumbai,2020-07-15
+EMP-2024-012,Arun Bhat,arun.bhat@techcorp.com,Engineering,Backend Developer,85000,5,Mangalore,2019-12-01
+EMP-2024-013,Pooja Sharma,pooja.sharma@techcorp.com,Marketing,Content Strategist,58000,3,Jaipur,2021-04-10
+EMP-2024-014,Vivek Nambiar,vivek.nambiar@techcorp.com,Engineering,ML Engineer,105000,7,Trivandrum,2017-08-20
+EMP-2024-015,Asha Patel,asha.patel@techcorp.com,HR,Talent Acquisition,62000,4,Surat,2020-10-05
