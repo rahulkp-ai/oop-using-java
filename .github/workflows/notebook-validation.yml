@@ -2,25 +2,66 @@ name: Notebook Validation
 
 on:
   push:
-    paths: ['notebooks/**']
+    paths:
+      - "notebooks/**"
+      - ".github/workflows/notebook-validation.yml"
+
+  pull_request:
+    paths:
+      - "notebooks/**"
+      - ".github/workflows/notebook-validation.yml"
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-    - run: python -m pip install --upgrade pip jupyter nbformat
-    - name: Validate notebook JSON
-      run: |
-        for nb in notebooks/*.ipynb; do
-          python -c "
-import json, sys
-with open('$nb') as f:
-    nb = json.load(f)
-assert 'cells' in nb and 'metadata' in nb
-print('OK:', '$nb')
-"
-        done
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install nbformat
+
+      - name: Validate Jupyter notebooks
+        run: |
+          python <<'PY'
+          import glob
+          import sys
+          import nbformat
+          from nbformat.validator import validate
+
+          notebooks = glob.glob("notebooks/**/*.ipynb", recursive=True)
+
+          if not notebooks:
+              print("ℹ️ No notebooks found.")
+              sys.exit(0)
+
+          failed = False
+
+          for notebook in notebooks:
+              print(f"Checking {notebook}...")
+
+              try:
+                  with open(notebook, "r", encoding="utf-8") as f:
+                      nb = nbformat.read(f, as_version=4)
+
+                  validate(nb)
+                  print(f"{notebook} is valid.\n")
+
+              except Exception as e:
+                  print(f"{notebook} is invalid.")
+                  print(e)
+                  failed = True
+
+          if failed:
+              sys.exit(1)
+
+          print("🎉 All notebooks are valid!")
+          PY
