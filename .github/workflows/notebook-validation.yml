@@ -1,0 +1,26 @@
+name: Notebook Validation
+
+on:
+  push:
+    paths: ['notebooks/**']
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - run: pip install jupyter nbformat
+    - name: Validate notebook JSON
+      run: |
+        for nb in notebooks/*.ipynb; do
+          python -c "
+import json, sys
+with open('$nb') as f:
+    nb = json.load(f)
+assert 'cells' in nb and 'metadata' in nb
+print('OK:', '$nb')
+"
+        done
