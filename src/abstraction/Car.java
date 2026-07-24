@@ -42,4 +42,18 @@ public class Car extends Vehicle {
 
     public String getVariant() { return variant; }
     public boolean isElectric() { return isElectric; }
+
+    // ==========================================
+    // ADDED: Main method to allow execution
+    // ==========================================
+    public static void main(String[] args) {
+        // Create an instance of Car (Example: Tesla Model 3)
+        Car myCar = new Car("Tesla", "Model 3", 2026, "Top", true, 75);
+        
+        // Test the methods
+        myCar.startEngine();
+        System.out.println("Fuel Type: " + myCar.getFuelType());
+        System.out.println("Max Range: " + myCar.getMaxRangeKm() + " km");
+        myCar.stopEngine();
+    }
 }

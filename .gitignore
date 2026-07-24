@@ -39,3 +39,5 @@ Thumbs.db
 # Environment
 .env
 *.env.local
+
+oracleJdk-26.jdk
